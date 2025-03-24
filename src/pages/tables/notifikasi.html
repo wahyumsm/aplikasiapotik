@@ -115,114 +115,106 @@
       <div class="container-fluid page-body-wrapper">
         <!-- partial:../../partials/_sidebar.html -->
         <nav class="sidebar sidebar-offcanvas" id="sidebar">
-          <ul class="nav">
-            <li class="nav-item mt-3">
-              <a class="nav-link" href="/src/index.html">
-                <i class="fa-solid fa-house menu-icon"></i>
-                <span class="menu-title">Dashboard</span>
-              </a>
-            </li>
-            <li class="nav-item mt-3">
-              <a class="nav-link" href="stokobat.html">
-                <i class="fa-solid fa-boxes-stacked menu-icon"></i>
-                <span class="menu-title">Stok Obat</span>
-              </a>
-            </li>
-            <li class="nav-item mt-3">
-              <a class="nav-link" href="pelanggan.html">
-                <i class="fa-solid fa-users menu-icon"></i>
-                <span class="menu-title">Pelanggan</span>
-              </a>
-            </li>
-            <li class="nav-item mt-3">
-              <a class="nav-link" href="supplier.html">
-                <i class="fa-solid fa-truck menu-icon"></i>
-                <span class="menu-title">Supplier</span>
-              </a>
-            </li>
-            <li class="nav-item mt-3">
-              <a class="nav-link" href="notifikasi.html">
-                <i class="fa-solid fa-bell menu-icon"></i>
-                <span class="menu-title">Notifikasi</span>
-              </a>
-            </li>
-            <li class="nav-item mt-3">
-              <a class="nav-link"  href="laporan.html">
-                <i class="fa-solid fa-chart-line menu-icon"></i>
-                <span class="menu-title">Laporan</span>
-           
-              </a>
-              
-            </li>
-          </ul>
-        </nav>
-        <div class="main-panel">
-          <div class="content-wrapper">
-              <div class="row">
-                  <div class="col-lg-12 grid-margin stretch-card">
-                      <div class="card">
-                          <div class="card-body">
-                              <h4 class="card-title">📦 Data Stok Obat</h4>
-                              <p class="card-description">Manajemen stok obat dengan status kadaluarsa</p>
-                              <div class="table-responsive">
-                                  <table id="stockTable" class="table table-hover text-center">
-                                      <thead class="table-dark">
-                                          <tr>
-                                              <th style="text-align: center;">No</th>
-                                              <th style="text-align: center;" >Nama Obat</th>
-                                              <th style="text-align: center;">Stok</th>
-                                              <th style="text-align: center;">Tanggal Kadaluarsa</th>
-                                              <th style="text-align: center;">Status</th>
-                                              <th style="text-align: center;">Aksi</th>
-                                          </tr>
-                                      </thead>
-                                      <tbody>
-                                          <tr>
-                                              <td>1</td>
-                                              <td>Paracetamol</td>
-                                              <td><span class="badge bg-warning">10 pcs</span></td>
-                                              <td>2025-08-20</td>
-                                              <td><span class="badge bg-success">Aman</span></td>
-                                              <td>
-                                                  <button class="btn btn-primary btn-sm"><i class="fa-solid fa-search"></i></button>
-                                                  <button class="btn btn-warning btn-sm"><i class="fa-solid fa-cart-plus"></i></button>
-                                                  <button class="btn btn-secondary btn-sm" disabled><i class="fa-solid fa-trash"></i></button>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                              <td>2</td>
-                                              <td>Amoxicillin</td>
-                                              <td><span class="badge bg-danger">3 pcs</span></td>
-                                              <td>2024-05-10</td>
-                                              <td><span class="badge bg-warning">Hampir Kadaluarsa</span></td>
-                                              <td>
-                                                  <button class="btn btn-primary btn-sm"><i class="fa-solid fa-search"></i></button>
-                                                  <button class="btn btn-warning btn-sm"><i class="fa-solid fa-cart-plus"></i></button>
-                                                  <button class="btn btn-secondary btn-sm" disabled><i class="fa-solid fa-trash"></i></button>
-                                              </td>
-                                          </tr>
-                                          <tr>
-                                              <td>3</td>
-                                              <td>Ibuprofen</td>
-                                              <td><span class="badge bg-secondary">0 pcs</span></td>
-                                              <td>2023-12-01</td>
-                                              <td><span class="badge bg-danger">Expired</span></td>
-                                              <td>
-                                                  <button class="btn btn-primary btn-sm"><i class="fa-solid fa-search"></i></button>
-                                                  <button class="btn btn-warning btn-sm" disabled><i class="fa-solid fa-cart-plus"></i></button>
-                                                  <button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button>
-                                              </td>
-                                          </tr>
-                                      </tbody>
-                                  </table>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-      
+            <ul class="nav">
+              <li class="nav-item mt-3">
+                <a class="nav-link" href="/src/index.html">
+                  <i class="fa-solid fa-house menu-icon"></i>
+                  <span class="menu-title">Dashboard</span>
+                </a>
+              </li>
+              <li class="nav-item mt-3">
+                <a class="nav-link" href="stokobat.html">
+                  <i class="fa-solid fa-boxes-stacked menu-icon"></i>
+                  <span class="menu-title">Stok Obat</span>
+                </a>
+              </li>
+              <li class="nav-item mt-3">
+                <a class="nav-link" href="pelanggan.html">
+                  <i class="fa-solid fa-users menu-icon"></i>
+                  <span class="menu-title">Pelanggan</span>
+                </a>
+              </li>
+              <li class="nav-item mt-3">
+                <a class="nav-link" href="supplier.html">
+                  <i class="fa-solid fa-truck menu-icon"></i>
+                  <span class="menu-title">Supplier</span>
+                </a>
+              </li>
+              <li class="nav-item mt-3">
+                <a class="nav-link" href="notifikasi.html">
+                  <i class="fa-solid fa-bell menu-icon"></i>
+                  <span class="menu-title">Notifikasi</span>
+                </a>
+              </li>
+              <li class="nav-item mt-3">
+                <a class="nav-link"  href="laporan.html">
+                  <i class="fa-solid fa-chart-line menu-icon"></i>
+                  <span class="menu-title">Laporan</span>
+             
+                </a>
+                
+              </li>
+            </ul>
+          </nav>
+          <div class="main-panel">
+            <div class="content-wrapper">
+                <div class="row">
+                    <div class="col-lg-12 grid-margin stretch-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="card-title">🔔 Kelola Notifikasi</h4>
+                                <p class="card-description">Manajemen notifikasi pelanggan, kirim promo, dan atur pengingat obat</p>
+                                <div class="table-responsive">
+                                    <table id="notificationTable" class="table table-hover text-center">
+                                        <thead class="table-dark">
+                                            <tr>
+                                                <th>No</th>
+                                                <th>Nama Pelanggan</th>
+                                                <th>Kontak</th>
+                                                <th>Jenis Notifikasi</th>
+                                                <th>Status</th>
+                                                <th>Aksi</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr>
+                                                <td>1</td>
+                                                <td>Ahmad Fauzi</td>
+                                                <td><i class="fa-solid fa-phone"></i> 08123456789</td>
+                                                <td><span class="badge bg-info">📢 Promo Diskon 20%</span></td>
+                                                <td><span class="badge bg-success">Terkirim</span></td>
+                                                <td>
+                                                    <button class="btn btn-warning btn-sm"><i class="fa-solid fa-edit"></i></button>
+                                                    <button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td>2</td>
+                                                <td>Siti Rahma</td>
+                                                <td><i class="fa-solid fa-phone"></i> 082233445566</td>
+                                                <td><span class="badge bg-warning">⏰ Pengingat Obat</span></td>
+                                                <td><span class="badge bg-danger">Belum Dikirim</span></td>
+                                                <td>
+                                                    <button class="btn btn-warning btn-sm"><i class="fa-solid fa-edit"></i></button>
+                                                    <button class="btn btn-danger btn-sm"><i class="fa-solid fa-trash"></i></button>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </div>
+                                <div class="mt-3">
+                                    <button class="btn btn-primary"><i class="fa-solid fa-plus"></i> Tambah Notifikasi</button>
+                                    <button class="btn btn-secondary"><i class="fa-solid fa-bullhorn"></i> Kirim Promo</button>
+                                    <button class="btn btn-success"><i class="fa-solid fa-clock"></i> Atur Pengingat Obat</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
         <!-- main-panel ends -->
       </div>
       <!-- page-body-wrapper ends -->
